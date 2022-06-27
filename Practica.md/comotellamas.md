@@ -33,4 +33,4 @@ const [state, setState] = useState({
 7. Recuerda que es MUUUUY importante hacer copias del estado si vas a cambiar cosas antes del `useState`, esto para seguir la regla de inmutabilidad.
 
 8. Resultado:
-<img src="./resultado.png" width="400">
+<img src="../IMG/como-tellamas.png" width="400">
