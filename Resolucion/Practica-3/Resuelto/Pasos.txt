@@ -1,0 +1,22 @@
+1. Crear el browser router.
+
+2. Agregar las rutas y renderizar las páginas correspondientes
+ / => Index
+ /details/:id => Details
+ /cart => Cart
+
+3. Agregar componentes Link en cada página para hacer la navegación
+    Index: 
+        - boton Carrito debe ir a /cart
+        - cada etiqueta debe ir a /details/1 (el id es auxiliar)
+
+    Details:
+        - boton Carrito debe ir a /cart
+        - boton Volver debe ir a /
+        - boton Add to Cart debe ir a /cart
+
+    Cart:
+        - boton Seguir comprando debe ir a /
+        - el boton checkout debe hacer la petición a la API, que la resolveremos en otra clase
+
+4. Cuidado con las URLs relativas (como las fotos). Puedes agregar una barra al inicio de todas las URLs relativas para que hagan referencia al root del proyecto y no a la ruta actual
