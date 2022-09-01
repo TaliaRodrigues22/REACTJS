@@ -1,0 +1,111 @@
+/* NavBar */
+
+nav {
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 190px;
+}
+
+nav .nav-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cart-button {
+    display: block;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100px;
+}
+
+
+/* SearchBox */
+
+.search-box-wrapper {
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 26px;
+    width: 90%;
+}
+
+/* ItemsList */
+
+.list-wrapper {
+
+}
+
+.list {
+
+}
+
+.list-item {
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+}
+
+.list-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.list-item .list-item-box {
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    width: calc(100% - 140px);
+    height: calc(100% - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item .list-item-box span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*
+<div className="list-wrapper">
+<section className="list">
+    <article className="list-item">
+        <img src="" alt="" />
+        <div className="list-item-box">
+            <span></span>
+        </div>
+    </article>
+</section>
+</div>
+*/
